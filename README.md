@@ -4,7 +4,7 @@ I'm sure this is far from perfect, but, for now, it works on my machine. I'll up
 
 Due to the structure of the library and likely some user error on my end, these typedefs had to be replaced prior to generating bindings.
 
-```
+```cpp
 typedef intptr_t l_intptr_t;
 typedef uintptr_t l_uintptr_t;
 typedef int                     l_ok;    /*!< return type 0 if OK, 1 on error */
